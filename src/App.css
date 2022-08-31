@@ -32,7 +32,28 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.clsUl {
+  list-style-type: none;
+}
+
+img {
+  height: 20px;
+}
+
+.clsHeaderRed {
+  color: red;
+}
+
+.clsHeaderRed:hover {
+  color: purple;
+}
+
+.clsDiv {
+  margin-left: 10px;
 }
